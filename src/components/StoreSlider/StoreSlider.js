@@ -46,7 +46,7 @@ const StoreSlider = () => {
 
     return (
         <div className={styles.sliderWrapper}>
-            <div className={styles.featured} style={{ backgroundImage: `url(${MyGames[counter].background_image})`, width :'1100px', height:'500px', padding:'20px', marginRight:'40px'}}>   
+            {/* <div className={styles.featured} style={{ backgroundImage: `url(${MyGames[counter].background_image})`, width :'1100px', height:'500px', padding:'20px', marginRight:'40px'}}>   
                 <div className={styles.itemText}>
                     <h3 className='text-left text-white text-xl'>{MyGames[counter].name}</h3>
                     <div className={styles.buttons}>
@@ -54,7 +54,7 @@ const StoreSlider = () => {
                         <a href="#!" className={`${styles.btn} ${styles.btnWishlist}`}>+</a>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <ul className={styles.MyGames} style={{ display:'felx'}}>
                 {MyGames.map((game, index) => (
