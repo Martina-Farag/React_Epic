@@ -1,0 +1,65 @@
+body {
+  color: white;
+}
+.gameCard {
+  background: rgb(32, 32, 32);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 20px;
+  height: 150px;
+  width: 100%;
+  border-radius: 10px;
+}
+.rightCol {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.leftCol {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons h6 {
+  width: max-content;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.gamePoster {
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
+}
+.baseGame {
+  background: rgb(55, 55, 55);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .gameCard {
+    padding: 5px;
+  }
+  .info {
+    align-items: center;
+  }
+}

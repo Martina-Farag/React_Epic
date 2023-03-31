@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(18, 18, 18) !important;
+}
+.plus {
+  color: white;
+  border-radius: 30px;
+  border: 2px solid white;
+  width: 24px;
+  background-color: black;
+  font-weight: 500;
+  margin-left: 140px;
+  margin-bottom: 40px;
+  position: absolute;
+}
+
+.cont {
+  /* height: 170px; */
+  font-size: smaller;
+}

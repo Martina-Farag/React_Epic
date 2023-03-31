@@ -1,0 +1,44 @@
+.container {
+  background-color: #212529;
+}
+
+.sectionName {
+  color: white;
+  padding-top: 10px;
+}
+.cart {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 10px; */
+}
+.games {
+  width: 70%;
+}
+.gamesSummary {
+  width: 30%;
+  /* background-color: black; */
+}
+.cartEmpty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .cart {
+    flex-direction: column;
+  }
+  .games {
+    width: 100%;
+  }
+  .gamesSummary {
+    width: 100%;
+  }
+  .cart {
+    padding: 10px;
+    font-size: 12px;
+  }
+}

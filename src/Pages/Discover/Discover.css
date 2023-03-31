@@ -1,0 +1,41 @@
+* {
+  font-family: "Cairo", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+.Container {
+  justify-content: space-between;
+  font-size: 14px !important;
+}
+.Section {
+  width: 30%;
+  left: 0;
+  /* border: 1px solid white; */
+  border-right: 1px solid lightgrey;
+  padding: 0 30px;
+  /* margin-right: 70px; */
+}
+#Section3 {
+  width: 30%;
+  padding: 0 30px;
+  /* margin-left: -20px; */
+}
+
+.cards {
+  display: block;
+  padding: 20px;
+}
+
+.header {
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.titlebtn {
+  border: 1px solid white;
+}
+.title {
+  width: fit-content;
+  left: 0;
+  /* border: 2px solid white; */
+}

@@ -1,0 +1,53 @@
+*{
+    background-color: #212529;
+}
+
+.slider-wrapper {
+    position: relative;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    position: absolute;
+    top: 0% !important;
+    transform: translateY(-50%);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom:50px !important;
+   
+  }
+  
+  .slick-prev {
+    left: 100% !important;
+  }
+  
+  .slick-next {
+    left: 95% !important;
+  }
+
+  .base-game{
+    margin-top: 15px;
+    color: rgba(245, 245, 245, 0.6);
+    font-size: 9px;
+    /* line-height: 15px; */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .name{
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    /* line-height: 1.4; */
+    font-weight: 400;
+    color: rgb(245, 245, 245);
+    
+  }
+  .price{
+    transition: color 125ms ease-in-out;
+    color: rgb(245, 245, 245);
+    font-size: 14px;
+    font-weight: normal;
+    /* line-height: 20px; */
+    letter-spacing: 0.2px;
+  }
